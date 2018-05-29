@@ -20,7 +20,7 @@ body {
   display:flex;
   color: @fg-color;
   background-color: @bg-color;
-	font-family: 'Fira Mono', monospace;
+	font-family: 'Courier', monospace;
 	font-size: 1.6em;
 	font-weight: 400;
 	letter-spacing: 0.0625em;
@@ -114,14 +114,19 @@ h6 {
 
 pre {
   margin: 1.6rem 0 1.0rem 0;
+  font-family:'Courier', monospace;
   padding: 1.6rem;
   overflow-x: auto;
+  border-radius: 5px;
 }
 
 code {
+  overflow-x:auto;
   background-color: @darker-fg-color;
   color: @bg-color;
-  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+  font-family:'Courier', monospace;
+  padding: 0.1rem;
+  border-radius: 3px;
 }
 
 blockquote {
